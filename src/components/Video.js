@@ -11,10 +11,10 @@ function Video() {
         </video>
         <div className='content'>
             <h1>The Working Data</h1>
-            <p>Finding Solutions by putitng your data to work</p>
+            <p>Finding Solutions by putting your data to work</p>
             <div>
                 <Link to='/services' className='btn'>Our Services</Link>
-                <Link to='/services' className='btn btn-light'>Free Consultation</Link>
+                <Link to='/contact' className='btn btn-light'>Free Consultation</Link>
             </div>
         </div>
     </div>
