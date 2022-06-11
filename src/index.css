@@ -52,3 +52,21 @@ code {
 .btn-hover {
   background: rgba(255,255,255,.2);
 }
+
+::-webkit-scrollbar {
+  width: .5rem;
+
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(32, 115, 223);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 22, 102);
+  
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 22, 102, 0.589);
+  
+}

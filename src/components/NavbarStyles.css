@@ -18,6 +18,11 @@
     padding: 0 1rem;
 }
 
+.nav-menu li:hover {
+    background-color:rgba(81, 106, 218, 0.649);
+    border-radius: 12px;
+    transition: .2s ease;
+}
 .nav-menu a {
     font-size: 1.2rem;
     font-weight: 500;
