@@ -14,7 +14,7 @@ function Form() {
             <input type='text'></input>
             <label>Details</label>
             <textarea rows='6' placeholder='Type details here'></textarea>
-            <button className='btn'>Submit</button>
+            <button className='btn ext'>Submit</button>
         </form>
     </div>
   )

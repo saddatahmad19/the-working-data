@@ -7,10 +7,8 @@ function Footer() {
     <div className='footer'>
         <div className='footer-container'>
             <div className='left'>
-                <div className='location'>
-                
+                <div className='location'>                
                     <h4><FaSearchLocation size={20} style={{color:'#ffffff', marginRight:'2rem'}} />Chicago, IL</h4>
-                    
                 </div>
                 <div className='phone'>
                     <h4><FaPhone size={20} style={{color:'#ffffff', marginRight:'2rem'}} />574-849-1039</h4>

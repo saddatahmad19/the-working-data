@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 import '../../components/BlogPagesStyles.css'
 import HeroImage from '../../components/HeroImage'
 
-function BlogPage1() {
+function Page1() {
   return (
     <div>
         <Navbar/>
@@ -35,4 +35,4 @@ function BlogPage1() {
   )
 }
 
-export default BlogPage1
+export default Page1
