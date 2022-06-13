@@ -3,6 +3,7 @@ import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
 import '../../components/BlogPagesStyles.css'
 import HeroImage from '../../components/HeroImage'
+import Subscribe from '../../components/Subscribe'
 
 function Page1() {
   return (
@@ -27,9 +28,11 @@ function Page1() {
                 <br/>
                 <p>Interested in learning more feel free to reach out to us https://theworkingdata.com/contact-us</p>
                 
-            
+      
             </div>
+          
         </div>
+        <Subscribe/>
         <Footer/>
     </div>
   )

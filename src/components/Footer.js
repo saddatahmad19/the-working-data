@@ -5,7 +5,9 @@ import {FaFacebook, FaLinkedin, FaMailBulk, FaPhone, FaSearchLocation, FaTwitter
 function Footer() {
   return (
     <div className='footer'>
+        <h1 className='footer-slogan'>Your data science and machine learning team</h1>
         <div className='footer-container'>
+            
             <div className='left'>
                 <div className='location'>                
                     <h4><FaSearchLocation size={20} style={{color:'#ffffff', marginRight:'2rem'}} />Chicago, IL</h4>
@@ -29,6 +31,7 @@ function Footer() {
                 </div>
             </div>
         </div>
+        <p className='copyright'>Copyright © 2022 The Working Data - All Rights Reserved</p>
     </div>
   )
 }

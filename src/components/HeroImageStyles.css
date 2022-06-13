@@ -27,13 +27,13 @@
 .hero-img h1 {
     font-size: 2.4rem;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 
 .hero-img p {
     font-size: 1.4rem;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 
 @media screen and (max-width:640px) {

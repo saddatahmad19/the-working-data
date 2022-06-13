@@ -14,7 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: #CAEBF2;
+  background: #194a55;
 }
 
 ul {
@@ -69,4 +69,8 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 22, 102, 0.589);
   
+}
+
+:root {
+  --itemHover: rgb(137, 178, 231);
 }
