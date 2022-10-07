@@ -2,7 +2,6 @@ import { db } from '../firebaseConfig';
 import { addDoc, collection, serverTimestamp } from "firebase/firestore"
 import React, {useState} from 'react'
 import './FormStyles.css'
-import { async } from '@firebase/util';
 
 function Form() {
   const [name, setName] = useState('');
@@ -22,6 +21,7 @@ function Form() {
       }).catch((err) =>{
         console.error(err);
       })
+      window.location.pathname('/contact')
    }
 
   return (
