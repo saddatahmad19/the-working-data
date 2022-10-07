@@ -5,17 +5,17 @@ import background from '../assets/background.jpg'
 
 function Video() {
   return (
-    <div className='hero' style={{backgroundImage:`url(${background})`}}>
-        <video autoPlay loop muted id='video'>
-            <source></source>
-        </video>
+    <div className='hero' id='image' style={{backgroundImage:`url(${background})`}}>
+        
         <div className='content'>
+          <div className='borderContent'>
             <h1>The Working Data</h1>
             <p>Finding Solutions by putting your data to work</p>
             <div>
                 <Link to='/services' className='btn'>Our Services</Link>
                 <Link to='/contact' className='btn btn-light'>Free Consultation</Link>
             </div>
+          </div>
         </div>
     </div>
 

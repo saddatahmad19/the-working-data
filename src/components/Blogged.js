@@ -1,5 +1,4 @@
 import React from 'react'
-import BlogPage1 from '../routes/BlogPages/Page1'
 import BlogCard from './BlogCard'
 import Subscribe from './Subscribe'
 

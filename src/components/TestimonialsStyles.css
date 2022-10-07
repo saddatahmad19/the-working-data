@@ -1,0 +1,17 @@
+.testWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.testWrapper .testimonial-list {
+    width: 50%;
+}
+
+
+.testCard {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+    color: gray;
+}
