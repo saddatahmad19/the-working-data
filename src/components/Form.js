@@ -20,9 +20,11 @@ function Form() {
         formDetails: details,
         timeOf: serverTimestamp()
       }).then(() => {
+        window.location.reload(false);
         console.log("Message has been sent");
       }).catch((err) =>{
         console.error(err);
+        console.log("There is an error");
       })
       navigate('/contact')
    }
