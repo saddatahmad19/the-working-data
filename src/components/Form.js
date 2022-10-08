@@ -2,12 +2,15 @@ import { db } from '../firebaseConfig';
 import { addDoc, collection, serverTimestamp } from "firebase/firestore"
 import React, {useState} from 'react'
 import './FormStyles.css'
+import { useNavigate } from 'react-router-dom';
 
 function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [details, setDetails] = useState('');
+
+  const navigate = useNavigate();
 
   const submitDetails = async() => { 
       await addDoc(collection(db, "submissions"), {
@@ -21,7 +24,7 @@ function Form() {
       }).catch((err) =>{
         console.error(err);
       })
-      window.location.pathname('/contact')
+      navigate('/contact')
    }
 
   return (
