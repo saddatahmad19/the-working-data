@@ -4,8 +4,6 @@ import Data from '../assets/data.jpg'
 import Analysis from '../assets/dataanalysis.jpg'
 import Machine from '../assets/machinelearning.jpg'
 
-import Testimonial from './Testimonial'
-
 function Service() {
   return (
     <div className='wrapper'>
